@@ -11,13 +11,13 @@ jQuery(document).ready(function ($) {
         $(".main").append(
           ' <div class="single-data"> <p class="avatar"> <img src="' +
             res.data[a].avatar +
-            '" alt=""> </p> <p class="id">' +
+            '" alt=""> </p> <p class="id"> ID: ' +
             res.data[a].id +
-            '</p> <p class="firstname ">' +
+            '</p> <p class="firstname "> First Name: ' +
             res.data[a].first_name +
-            '</p> <p class="lastname ">' +
+            '</p> <p class="lastname ">  Last Name:  ' +
             res.data[a].last_name +
-            '</p> <p class="email">' +
+            '</p> <p class="email">  Email:' +
             res.data[a].email +
             "</p> </div>"
         );
@@ -36,13 +36,13 @@ jQuery(document).ready(function ($) {
           $(".main").append(
             ' <div class="single-data"> <p class="avatar"> <img src="' +
               res.data[a].avatar +
-              '" alt=""> </p> <p class="id">' +
+              '" alt=""> </p> <p class="id"> ID: ' +
               res.data[a].id +
-              '</p> <p class="firstname ">' +
+              '</p> <p class="firstname "> First Name: ' +
               res.data[a].first_name +
-              '</p> <p class="lastname ">' +
+              '</p> <p class="lastname "> Last Name: ' +
               res.data[a].last_name +
-              '</p> <p class="email">' +
+              '</p> <p class="email"> Email: ' +
               res.data[a].email +
               "</p> </div>"
           );
@@ -65,13 +65,13 @@ jQuery(document).ready(function ($) {
           $(".main").append(
             ' <div class="single-data"> <p class="avatar"> <img src="' +
               res.data[a].avatar +
-              '" alt=""> </p> <p class="id">' +
+              '" alt=""> </p> <p class="id"> ID: ' +
               res.data[a].id +
-              '</p> <p class="firstname ">' +
+              '</p> <p class="firstname "> First Name: ' +
               res.data[a].first_name +
-              '</p> <p class="lastname ">' +
+              '</p> <p class="lastname ">Last Name: ' +
               res.data[a].last_name +
-              '</p> <p class="email">' +
+              '</p> <p class="email"> Email: ' +
               res.data[a].email +
               "</p> </div>"
           );

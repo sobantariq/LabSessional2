@@ -8,11 +8,11 @@ body {
   width: max-content;
 }
 
-.firstname {
+p.firstname {
   color: crimson;
 }
 
-.lastname {
+p.lastname {
   color: crimson;
 }
 
