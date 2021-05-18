@@ -1,0 +1,21 @@
+body{
+  background-color: #f0e9aa;
+}
+
+.footer {
+  display: block;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.firstname{
+  color: crimson;
+}
+
+.lastname{
+  color: crimson;
+}
+
+.email{
+  color: saddlebrown;
+}
